@@ -1,4 +1,4 @@
-## Palindrome Finder
+## Palindrome Finder :sunny:
 
 ### Description
 This method finds that nearest Palindrome to a given input number on the command line.
@@ -10,7 +10,7 @@ Example:
 ```
 
 ### Assumptions: 
-* If there is a tie in the absolute difference of output then the lower number is used.
+* If there is a tie in the absolute difference of output the lower number is used.
 * The provided string does not exceed more than 11 digits. (No BigInt)
 * No negative numbers are provided to the input. (Easy error handling to solve this to whomever wants a better 
   solution.)
@@ -20,7 +20,7 @@ Example:
 ### Solution:
 
 Most importantly please see:
-`src->main->java->palindrome->palindromeFind.java` for the working solution.
+`src->main->java->palindrome->palindromeFinder.java` for the working solution.
 
 The solution solves the problem through taking a number and checking each number above and below the provided input.
 It compares each number to evaluate if it's a palindrome and if so returns the value. Lastly, we compare the 
@@ -33,7 +33,7 @@ Items tested:
 * Checks finding a palindrome for odd/even of higher and lower values.
   
  Bonus - For the more efficient solution and ours:
-* Input 1800 returns 1771 knows to search lower
+* Input 1800 returns 1771 knows to search lower not higher. (One test for more mathematical solution.)
 
 
 ### Learnings
