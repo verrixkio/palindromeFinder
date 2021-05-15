@@ -1,7 +1,7 @@
 ## Palindrome Finder :sunny:
 
 ### Description
-This method finds thw nearest Palindrome to a given input number on the command line.
+This method finds the nearest Palindrome to a given input number on the command line.
 
 Example:
 ```java
